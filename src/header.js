@@ -19,10 +19,10 @@ const Header = () => {
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Arduinos</a>
+                                    <a class="nav-link active" aria-current="page" href="#"><i data-feather="cpu"></i>Arduinos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Pantallas</a>
+                                    <a class="nav-link" href="#"><i data-feather="monitor"></i>Pantallas</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#"><i data-feather="users"></i>Sobre nosotros</a>
