@@ -1,3 +1,9 @@
+const feather = require('feather-icons');
+
+setTimeout(() => {
+    feather.replace();
+}, 1000);
+
 const Aside = () => {
     return <aside>
         <form>
@@ -16,7 +22,7 @@ const Aside = () => {
                         <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
                             <label class="form-check-label" for="exampleCheck1">Recibir ofertas especiales por correo</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Crear</button>
+                    <button type="submit" class="btn btn-primary"><i data-feather="user-check"></i>    Crear</button>
         </form>
 
 

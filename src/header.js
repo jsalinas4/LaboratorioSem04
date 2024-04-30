@@ -10,7 +10,7 @@ const Header = () => {
         <h1 className ="text-center"> Electronica Store</h1>
          <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#"><i data-feather="home"></i>Inicio</a>
+                        <a class="navbar-brand" href="#"><i data-feather="home"></i>  Inicio</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -25,20 +25,20 @@ const Header = () => {
                                     <a class="nav-link" href="#">Pantallas</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Display</a>
+                                    <a class="nav-link" href="#"><i data-feather="users"></i>Sobre nosotros</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Resistencias</a>
+                                    <a class="nav-link" href="#"><i data-feather="help-circle"></i>  Ayuda</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Circuitos integrados</a>
+                                    <a class="nav-link" href="#"><i data-feather="shopping-cart"></i>  Carrito</a>
                                 </li>
                             </ul>
                             <form class="d-flex" role="search">
                                 <input class="form-control me-2" type="search" placeholder="Ingresa una producto" aria-label="Buscar productos"></input>
                                 <button class="btn btn-outline-success" type="submit">
                                     <i data-feather="search"></i>
-                                    Buscar</button>
+                                      Buscar</button>
                             </form>
                         </div>
                     </div>
