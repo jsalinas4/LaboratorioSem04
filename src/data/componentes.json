@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Arduino Uno",
+        "slug": "componente-1",
+        "description": "Ideal para desarrollar proyectos de electrónica y robótica",
+        "picture": "https://i0.wp.com/www.teslaelectronic.com.pe/wp-content/uploads/2018/08/Arduino.Uno_.R3.2.jpg?fit=777%2C500&ssl=1"
+    },
+    {
+        "name": "Protoboard 830",
+        "slug": "componente-2",
+        "description": "Permite diseñar y cambiar circuitos de forma rápida y limpia",
+        "picture": "https://hifisac.com/web/image/product.template/2068/image_1024?unique=06e4fff"
+    },
+    {
+        "name": "Módulo láser KY-008",
+        "slug": "componente-3",
+        "description": "Módulo con circuito emisor de luz láser",
+        "picture": "https://static.wixstatic.com/media/d96bda_218a4a2d94744b0ba3d6be0bcebbb1c1~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"
+    },
+    {
+        "name": "Cable Dupont Macho a Macho",
+        "slug": "componente-4",
+        "description": "Ideales para conectar nuestro circuito en un protoboard",
+        "picture": "https://ipowerelectronics.com.mx/6905-large_default/cable-dupont-jumper-mod-cd-mm20cm40-arduino-pack-40-piezas-20cm.jpg"
+    }
+]
