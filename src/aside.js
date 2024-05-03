@@ -29,4 +29,4 @@ const Aside = () => {
             </aside>;
 }
 
-            export default Aside;
+export default Aside;
