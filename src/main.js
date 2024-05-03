@@ -23,7 +23,7 @@ const Main = () => {
                         e.preventDefault(); handleClick(it.slug)
                     }}>
                         <img className='w-100 dark-image' src={it.picture}></img>
-                        <Carousel.Caption>
+                        <Carousel.Caption className='text-dark'>
                             <h3>{it.name}</h3>
                             <p>{it.description}</p>
                             <button className="btn btn-primary" >Ver detalle</button>
