@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import { useNavigate } from "react-router-dom";
 import Componentes from './data/componentes.json'
+import './style.css'
 
 const feather = require('feather-icons');
 

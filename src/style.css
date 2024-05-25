@@ -1,0 +1,23 @@
+.custom-header {
+    background-color: #31AFD4; /* Color de fondo personalizado */
+    color: white; /* Color de texto */
+    /*padding: 0px; /* Padding */
+  }
+  
+  .custom-navbar {
+    background-color: #31AFD4; /* Color de fondo personalizado */
+    color: white; /* Color de texto */
+    /*padding: 20px; /* Padding */
+  }
+
+  .custom-btn {
+    background-color: #004FFF; /* Cambia este color al que prefieras */
+    border-color: #004FFF; /* Cambia este color al que prefieras */
+    color: white; /* Cambia el color del texto */
+}
+
+.custom-btn:hover {
+    background-color: #004FFF; /* Color al pasar el cursor */
+    border-color: #004FFF; /* Cambia este color al que prefieras */
+    color: white; /* Asegura que el color del texto no cambie */
+}

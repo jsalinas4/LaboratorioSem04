@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import '../style.css';
 
 const feather = require('feather-icons');
 
@@ -8,9 +9,9 @@ setTimeout(() => {
 
 
 const Header = () => {
-    return <header>
+    return <header className="custom-header">
         <h1 className ="text-center"> Electronica Store</h1>
-         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+         <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#"><i data-feather="home"></i>  Inicio</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -24,21 +25,21 @@ const Header = () => {
                                     <a class="nav-link active" aria-current="page" href="#"><i data-feather="cpu"></i>Arduinos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i data-feather="monitor"></i>Pantallas</a>
+                                    <a class="nav-link active" href="#"><i data-feather="monitor"></i>Pantallas</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i data-feather="users"></i>Sobre nosotros</a>
+                                    <a class="nav-link active" href="#"><i data-feather="users"></i>Sobre nosotros</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i data-feather="help-circle"></i>  Ayuda</a>
+                                    <a class="nav-link active" href="#"><i data-feather="help-circle"></i>  Ayuda</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i data-feather="shopping-cart"></i>  Carrito</a>
+                                    <a class="nav-link active" href="#"><i data-feather="shopping-cart"></i>  Carrito</a>
                                 </li>
                             </ul>
                             <form class="d-flex" role="search">
                                 <input class="form-control me-2" type="search" placeholder="Ingresa una producto" aria-label="Buscar productos"></input>
-                                <button class="btn btn-outline-success" type="submit">
+                                <button class="btn btn-outline-success btn custom-btn" type="submit">
                                     <i data-feather="search"></i>
                                       Buscar</button>
                             </form>
