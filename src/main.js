@@ -33,6 +33,9 @@ const Main = () => {
                 })
             }
         </Carousel>
+        <p>Nos especializamos en proporcionar una amplia gama de componentes electrónicos de alta calidad para proyectos de ingeniería, educación y desarrollo tecnológico. Desde resistencias y condensadores hasta módulos avanzados y microcontroladores como Arduino, somos su fuente confiable para todos los productos electrónicos que necesita.</p>
+        <h1 className="display-12">Nuestra Misión: </h1>
+        <p>Proveer componentes electrónicos de calidad superior a precios competitivos, apoyando tanto a profesionales como a aficionados en la creación e innovación de proyectos tecnológicos.</p>
     </main >;
 }
 

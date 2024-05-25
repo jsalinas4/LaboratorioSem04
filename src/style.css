@@ -1,23 +1,23 @@
 .custom-header {
     background-color: #31AFD4; /* Color de fondo personalizado */
-    color: white; /* Color de texto */
-    /*padding: 0px; /* Padding */
+    color: white; /* Color de texto*/
+
   }
   
   .custom-navbar {
     background-color: #31AFD4; /* Color de fondo personalizado */
     color: white; /* Color de texto */
-    /*padding: 20px; /* Padding */
+
   }
 
   .custom-btn {
-    background-color: #004FFF; /* Cambia este color al que prefieras */
-    border-color: #004FFF; /* Cambia este color al que prefieras */
-    color: white; /* Cambia el color del texto */
+    background-color: #618B4A;
+    border-color: #618B4A; 
+    color: white; 
 }
 
 .custom-btn:hover {
-    background-color: #004FFF; /* Color al pasar el cursor */
-    border-color: #004FFF; /* Cambia este color al que prefieras */
-    color: white; /* Asegura que el color del texto no cambie */
+    background-color: #618B4A; 
+    border-color: #618B4A; 
+    color: white; 
 }
